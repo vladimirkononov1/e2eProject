@@ -1,0 +1,14 @@
+13:28:18.671 [main] INFO  resources.Base - Login button is present
+13:28:18.748 [main] INFO  resources.Base - Title contains "Featured Courses" text
+13:28:53.719 [main] INFO  resources.Base - Appium link is validated
+13:28:53.775 [main] INFO  resources.Base - Linkedin link is present
+13:28:53.916 [main] INFO  resources.Base - Courses links are present on the page
+13:28:53.986 [main] INFO  resources.Base - Login button is present
+13:28:54.051 [main] INFO  resources.Base - Title contains "Featured Courses" text
+13:29:50.980 [main] INFO  resources.Base - Linkedin link is present
+13:29:51.141 [main] INFO  resources.Base - Courses links are present on the page
+13:29:51.193 [main] INFO  resources.Base - Login button is present
+13:29:51.230 [main] INFO  resources.Base - Title contains "Featured Courses" text
+13:30:37.923 [main] INFO  resources.Base - Linkedin link is present
+13:30:38.121 [main] INFO  resources.Base - Login button is present
+13:30:38.176 [main] INFO  resources.Base - Title contains "Featured Courses" text

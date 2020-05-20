@@ -1,0 +1,15 @@
+15:19:23.818 [main] INFO  resources.Base - Courses links are present on the page
+15:19:23.911 [main] INFO  resources.Base - Login button is present
+15:19:23.956 [main] INFO  resources.Base - Title contains "Featured Courses" text
+15:41:33.460 [main] INFO  resources.Base - Navigated to Login Page
+15:41:37.311 [main] INFO  resources.Base - Restricted User
+15:41:46.556 [main] INFO  resources.Base - Navigated to Login Page
+15:41:50.391 [main] INFO  resources.Base - None Restricted User
+15:42:07.629 [main] INFO  resources.Base - Navigation Bar is displayed
+15:42:13.655 [main] INFO  resources.Base - Driver is initialized
+15:42:18.120 [main] INFO  resources.Base - Navigated to Home page
+15:42:33.772 [main] INFO  resources.Base - Appium link is validated
+15:42:33.948 [main] INFO  resources.Base - Linkedin link is present
+15:42:34.308 [main] INFO  resources.Base - Courses links are present on the page
+15:42:34.436 [main] INFO  resources.Base - Login button is present
+15:42:34.520 [main] INFO  resources.Base - Title contains "Featured Courses" text

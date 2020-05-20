@@ -1,0 +1,16 @@
+16:32:43.573 [main] INFO  resources.Base - Restricted User
+16:32:53.925 [main] INFO  resources.Base - Navigated to Login Page
+16:32:55.636 [main] INFO  resources.Base - None Restricted User
+16:33:07.164 [main] INFO  resources.Base - Navigated to Courses
+16:33:14.353 [main] INFO  resources.Base - Navigation Bar is displayed
+16:33:19.509 [main] INFO  resources.Base - Driver is initialized
+16:33:21.724 [main] INFO  resources.Base - Navigated to Home page
+16:37:12.466 [main] INFO  resources.Base - Navigated to Login Page
+16:37:14.643 [main] INFO  resources.Base - Restricted User
+16:37:26.903 [main] INFO  resources.Base - Navigated to Login Page
+16:37:28.658 [main] INFO  resources.Base - None Restricted User
+16:37:40.478 [main] INFO  resources.Base - Navigated to Courses
+16:37:51.869 [main] INFO  resources.Base - Navigation Bar is displayed
+16:37:57.859 [main] INFO  resources.Base - Driver is initialized
+16:38:01.205 [main] INFO  resources.Base - Navigated to Home page
+16:38:15.138 [main] INFO  resources.Base - Appium link is validated

@@ -1,0 +1,8 @@
+17:53:17.335 [TestNG] INFO  resources.Base - Navigation Bar is displayed
+17:53:31.317 [TestNG] INFO  resources.Base - Navigated to Login Page
+17:53:40.031 [TestNG] INFO  resources.Base - Restricted User
+17:54:00.528 [TestNG] INFO  resources.Base - Navigated to Login Page
+17:54:04.406 [TestNG] INFO  resources.Base - None Restricted User
+17:54:20.998 [TestNG] INFO  resources.Base - Navigated to Courses
+17:59:11.546 [main] INFO  resources.Base - Navigated to Login Page
+17:59:17.208 [main] INFO  resources.Base - Restricted User

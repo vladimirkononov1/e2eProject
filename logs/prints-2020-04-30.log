@@ -1,0 +1,15 @@
+11:54:29.573 [main] INFO  resources.Base - Login button is present
+11:54:29.699 [main] INFO  resources.Base - Title contains "Featured Courses" text
+11:56:30.883 [main] INFO  resources.Base - Linkedin link is present
+11:56:31.037 [main] INFO  resources.Base - Courses links are present on the page
+11:56:31.062 [main] INFO  resources.Base - Login button is present
+11:56:31.117 [main] INFO  resources.Base - Title contains "Featured Courses" text
+12:05:29.489 [main] INFO  resources.Base - Navigated to Login Page
+12:05:31.021 [main] INFO  resources.Base - Restricted User
+12:05:42.666 [main] INFO  resources.Base - Navigated to Login Page
+12:05:44.292 [main] INFO  resources.Base - None Restricted User
+12:05:55.901 [main] INFO  resources.Base - Navigated to Courses
+12:06:03.431 [main] INFO  resources.Base - Navigation Bar is displayed
+12:06:07.681 [main] INFO  resources.Base - Driver is initialized
+12:06:11.169 [main] INFO  resources.Base - Navigated to Home page
+12:06:11.201 [main] INFO  resources.Base - Successfully validated Text message

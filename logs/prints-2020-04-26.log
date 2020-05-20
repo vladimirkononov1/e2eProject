@@ -1,0 +1,8 @@
+11:24:30.871 [main] INFO  resources.Base - Navigated to Courses
+11:24:38.118 [main] INFO  resources.Base - Navigation Bar is displayed
+11:24:43.235 [main] INFO  resources.Base - Driver is initialized
+11:24:45.103 [main] INFO  resources.Base - Navigated to Home page
+11:31:40.000 [main] INFO  resources.Base - Navigated to Login Page
+11:31:41.923 [main] INFO  resources.Base - Restricted User
+11:31:53.506 [main] INFO  resources.Base - Navigated to Login Page
+11:31:55.402 [main] INFO  resources.Base - None Restricted User

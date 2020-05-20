@@ -1,0 +1,8 @@
+11:32:07.231 [main] INFO  resources.Base - Navigated to Courses
+11:32:14.925 [main] INFO  resources.Base - Navigation Bar is displayed
+11:32:18.587 [main] INFO  resources.Base - Driver is initialized
+11:32:21.855 [main] INFO  resources.Base - Navigated to Home page
+11:32:21.908 [main] INFO  resources.Base - Successfully validated Text message
+11:32:21.956 [main] INFO  resources.Base - Navigation Bar is displayed
+12:42:54.754 [main] INFO  resources.Base - Linkedin link is present
+12:42:54.793 [main] INFO  resources.Base - Login button is present

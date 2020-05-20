@@ -1,0 +1,8 @@
+17:49:17.811 [main] INFO  resources.Base - Navigated to Login Page
+17:49:21.960 [main] INFO  resources.Base - None Restricted User
+17:49:32.995 [main] INFO  resources.Base - Navigation Bar is displayed
+17:51:27.862 [main] INFO  resources.Base - Navigated to Login Page
+17:51:34.049 [main] INFO  resources.Base - Restricted User
+17:51:56.006 [main] INFO  resources.Base - Navigated to Login Page
+17:52:04.190 [main] INFO  resources.Base - None Restricted User
+17:52:31.816 [main] INFO  resources.Base - Navigation Bar is displayed

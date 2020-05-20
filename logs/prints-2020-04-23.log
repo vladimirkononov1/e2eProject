@@ -1,0 +1,8 @@
+18:01:15.512 [main] INFO  resources.Base - Driver is initialized
+18:01:19.447 [main] INFO  resources.Base - Navigated to Home page
+18:12:16.498 [main] INFO  resources.Base - Navigated to Login Page
+18:12:35.798 [main] INFO  resources.Base - Navigated to Login Page
+18:12:58.385 [main] INFO  resources.Base - Navigated to Courses
+18:13:06.613 [main] INFO  resources.Base - Navigation Bar is displayed
+18:13:11.675 [main] INFO  resources.Base - Driver is initialized
+18:13:15.454 [main] INFO  resources.Base - Navigated to Home page
