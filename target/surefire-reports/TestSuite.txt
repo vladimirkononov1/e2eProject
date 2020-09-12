@@ -1,8 +1,136 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 95.301 s <<< FAILURE! - in TestSuite
-validateAppTitle(Academy.ValidateTitle)  Time elapsed: 0.276 s  <<< FAILURE!
-java.lang.AssertionError: App Title is missing or wrong. expected [FEATURED COURSES123] but found [FEATURED COURSES]
-	at Academy.ValidateTitle.validateAppTitle(ValidateTitle.java:40)
+Tests run: 19, Failures: 4, Errors: 0, Skipped: 15, Time elapsed: 6.23 s <<< FAILURE! - in TestSuite
+initialize(Academy.HomePage)  Time elapsed: 2.381 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 80
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DCMMFHS', ip: '192.168.7.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00870C83+1707139]
+	Ordinal0 [0x007D68F1+1075441]
+	Ordinal0 [0x0074DFC9+516041]
+	Ordinal0 [0x006E0554+66900]
+	Ordinal0 [0x006DCCE2+52450]
+	Ordinal0 [0x006FBFD7+180183]
+	Ordinal0 [0x006FBDDD+179677]
+	Ordinal0 [0x006F9D4B+171339]
+	Ordinal0 [0x006E1D4A+73034]
+	Ordinal0 [0x006E2DC0+77248]
+	Ordinal0 [0x006E2D59+77145]
+	Ordinal0 [0x007EBB67+1162087]
+	GetHandleVerifier [0x0090A966+508998]
+	GetHandleVerifier [0x0090A6A4+508292]
+	GetHandleVerifier [0x0091F7B7+594583]
+	GetHandleVerifier [0x0090B1D6+511158]
+	Ordinal0 [0x007E402C+1130540]
+	Ordinal0 [0x007ED4CB+1168587]
+	Ordinal0 [0x007ED633+1168947]
+	Ordinal0 [0x00805B35+1268533]
+	BaseThreadInitThunk [0x75AB6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77307C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]
+
+	at Academy.HomePage.initialize(HomePage.java:26)
+
+initialize(Academy.ValidateNavigationBar)  Time elapsed: 1.418 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 80
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DCMMFHS', ip: '192.168.7.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00870C83+1707139]
+	Ordinal0 [0x007D68F1+1075441]
+	Ordinal0 [0x0074DFC9+516041]
+	Ordinal0 [0x006E0554+66900]
+	Ordinal0 [0x006DCCE2+52450]
+	Ordinal0 [0x006FBFD7+180183]
+	Ordinal0 [0x006FBDDD+179677]
+	Ordinal0 [0x006F9D4B+171339]
+	Ordinal0 [0x006E1D4A+73034]
+	Ordinal0 [0x006E2DC0+77248]
+	Ordinal0 [0x006E2D59+77145]
+	Ordinal0 [0x007EBB67+1162087]
+	GetHandleVerifier [0x0090A966+508998]
+	GetHandleVerifier [0x0090A6A4+508292]
+	GetHandleVerifier [0x0091F7B7+594583]
+	GetHandleVerifier [0x0090B1D6+511158]
+	Ordinal0 [0x007E402C+1130540]
+	Ordinal0 [0x007ED4CB+1168587]
+	Ordinal0 [0x007ED633+1168947]
+	Ordinal0 [0x00805B35+1268533]
+	BaseThreadInitThunk [0x75AB6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77307C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]
+
+	at Academy.ValidateNavigationBar.initialize(ValidateNavigationBar.java:23)
+
+initialize(Academy.ValidateTitle)  Time elapsed: 1.117 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 80
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DCMMFHS', ip: '192.168.7.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00870C83+1707139]
+	Ordinal0 [0x007D68F1+1075441]
+	Ordinal0 [0x0074DFC9+516041]
+	Ordinal0 [0x006E0554+66900]
+	Ordinal0 [0x006DCCE2+52450]
+	Ordinal0 [0x006FBFD7+180183]
+	Ordinal0 [0x006FBDDD+179677]
+	Ordinal0 [0x006F9D4B+171339]
+	Ordinal0 [0x006E1D4A+73034]
+	Ordinal0 [0x006E2DC0+77248]
+	Ordinal0 [0x006E2D59+77145]
+	Ordinal0 [0x007EBB67+1162087]
+	GetHandleVerifier [0x0090A966+508998]
+	GetHandleVerifier [0x0090A6A4+508292]
+	GetHandleVerifier [0x0091F7B7+594583]
+	GetHandleVerifier [0x0090B1D6+511158]
+	Ordinal0 [0x007E402C+1130540]
+	Ordinal0 [0x007ED4CB+1168587]
+	Ordinal0 [0x007ED633+1168947]
+	Ordinal0 [0x00805B35+1268533]
+	BaseThreadInitThunk [0x75AB6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77307C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]
+
+	at Academy.ValidateTitle.initialize(ValidateTitle.java:24)
+
+initialize(Academy.ValidateAcademyPage)  Time elapsed: 1.118 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 80
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DCMMFHS', ip: '192.168.7.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00870C83+1707139]
+	Ordinal0 [0x007D68F1+1075441]
+	Ordinal0 [0x0074DFC9+516041]
+	Ordinal0 [0x006E0554+66900]
+	Ordinal0 [0x006DCCE2+52450]
+	Ordinal0 [0x006FBFD7+180183]
+	Ordinal0 [0x006FBDDD+179677]
+	Ordinal0 [0x006F9D4B+171339]
+	Ordinal0 [0x006E1D4A+73034]
+	Ordinal0 [0x006E2DC0+77248]
+	Ordinal0 [0x006E2D59+77145]
+	Ordinal0 [0x007EBB67+1162087]
+	GetHandleVerifier [0x0090A966+508998]
+	GetHandleVerifier [0x0090A6A4+508292]
+	GetHandleVerifier [0x0091F7B7+594583]
+	GetHandleVerifier [0x0090B1D6+511158]
+	Ordinal0 [0x007E402C+1130540]
+	Ordinal0 [0x007ED4CB+1168587]
+	Ordinal0 [0x007ED633+1168947]
+	Ordinal0 [0x00805B35+1268533]
+	BaseThreadInitThunk [0x75AB6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77307C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]
+
+	at Academy.ValidateAcademyPage.initialize(ValidateAcademyPage.java:25)
 
