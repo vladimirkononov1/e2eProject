@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-skipped">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,71 +91,80 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">11 methods,  11 skipped,  </span>
+                    <span class="method-stats">11 methods, 3 failed,   8 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
                     </span>
-                    <div class="method-list-content skipped suite-Suite">
+                    <div class="method-list-content failed suite-Suite">
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Academy.HomePage" class="method navigator-link" hash-for-method="basePageNavigation">basePageNavigation</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Academy.HomePage" class="method navigator-link" hash-for-method="basePageNavigation(NoneRestrictedUser@gmail.com, NewPassword!, None Restricted User)">basePageNavigation(NoneRestrictedUser@gmail.com, NewPassword!, None Restricted User)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Academy.HomePage" class="method navigator-link" hash-for-method="basePageNavigation">basePageNavigation</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Academy.ValidateNavigationBar" class="method navigator-link" hash-for-method="validateAppNavigationBar">validateAppNavigationBar</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="Academy.ValidateTitle" class="method navigator-link" hash-for-method="validateAppTitle">validateAppTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="Academy.ValidateAcademyPage" class="method navigator-link" hash-for-method="validateAppium">validateAppium</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Academy.HomePage" class="method navigator-link" hash-for-method="basePageNavigation(RestrictedUser@gmail.com, Password, Restricted User)">basePageNavigation(RestrictedUser@gmail.com, Password, Restricted User)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Academy.ValidateNavigationBar" class="method navigator-link" hash-for-method="validateAppNavigationBar">validateAppNavigationBar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="Academy.ValidateTitle" class="method navigator-link" hash-for-method="validateCoursesLink">validateCoursesLink</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="Academy.ValidateTitle" class="method navigator-link" hash-for-method="validateHeader">validateHeader</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="Academy.ValidateAcademyPage" class="method navigator-link" hash-for-method="validateLinkedinLink">validateLinkedinLink</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="Academy.ValidateAcademyPage" class="method navigator-link" hash-for-method="validateLinks">validateLinks</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="Academy.ValidateAcademyPage" class="method navigator-link" hash-for-method="validateLogin">validateLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="Academy.ValidateAcademyPage" class="method navigator-link" hash-for-method="validateTitle">validateTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Suite -->
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -167,141 +176,49 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-skipped">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="failed.png"/>
               <span class="class-name">Academy.HomePage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="basePageNavigation">
-                  </a> <!-- basePageNavigation -->
+                  <a name="basePageNavigation(NoneRestrictedUser@gmail.com, NewPassword!, None Restricted User)">
+                  </a> <!-- basePageNavigation(NoneRestrictedUser@gmail.com, NewPassword!, None Restricted User) -->
                   <span class="method-name">basePageNavigation</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 83
+                  <span class="parameters">(NoneRestrictedUser@gmail.com, NewPassword!, None Restricted User)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[href*=&apos;sign_in&apos;]&quot;}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-DCMMFHS&apos;, ip: &apos;192.168.7.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x004E9563+2725219]
-	Ordinal0 [0x003E8551+1672529]
-	Ordinal0 [0x002D0359+525145]
-	Ordinal0 [0x00260B77+68471]
-	Ordinal0 [0x0025D32C+54060]
-	Ordinal0 [0x0027CC37+183351]
-	Ordinal0 [0x0027CA3D+182845]
-	Ordinal0 [0x0027A94B+174411]
-	Ordinal0 [0x00262528+75048]
-	Ordinal0 [0x002635A0+79264]
-	Ordinal0 [0x00263539+79161]
-	Ordinal0 [0x003FD607+1758727]
-	GetHandleVerifier [0x00606546+1050150]
-	GetHandleVerifier [0x00606291+1049457]
-	GetHandleVerifier [0x006110D7+1094071]
-	GetHandleVerifier [0x00606B46+1051686]
-	Ordinal0 [0x003F5B06+1727238]
-	Ordinal0 [0x003FEB7B+1764219]
-	Ordinal0 [0x003FECE3+1764579]
-	Ordinal0 [0x00414C05+1854469]
-	BaseThreadInitThunk [0x75AB6359+25]
-	RtlGetAppContainerNamedObjectPath [0x77307C24+228]
-	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\vladi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59519}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6032e6fc6bbb16ed948c478b138e10a3
+*** Element info: {Using=css selector, value=a[href*=&apos;sign_in&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
-	at resources.Base.initializeDriver(Base.java:48)
-	at Academy.HomePage.initialize(HomePage.java:26)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="basePageNavigation">
-                  </a> <!-- basePageNavigation -->
-                  <span class="method-name">basePageNavigation</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 83
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-DCMMFHS&apos;, ip: &apos;192.168.7.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x004E9563+2725219]
-	Ordinal0 [0x003E8551+1672529]
-	Ordinal0 [0x002D0359+525145]
-	Ordinal0 [0x00260B77+68471]
-	Ordinal0 [0x0025D32C+54060]
-	Ordinal0 [0x0027CC37+183351]
-	Ordinal0 [0x0027CA3D+182845]
-	Ordinal0 [0x0027A94B+174411]
-	Ordinal0 [0x00262528+75048]
-	Ordinal0 [0x002635A0+79264]
-	Ordinal0 [0x00263539+79161]
-	Ordinal0 [0x003FD607+1758727]
-	GetHandleVerifier [0x00606546+1050150]
-	GetHandleVerifier [0x00606291+1049457]
-	GetHandleVerifier [0x006110D7+1094071]
-	GetHandleVerifier [0x00606B46+1051686]
-	Ordinal0 [0x003F5B06+1727238]
-	Ordinal0 [0x003FEB7B+1764219]
-	Ordinal0 [0x003FECE3+1764579]
-	Ordinal0 [0x00414C05+1854469]
-	BaseThreadInitThunk [0x75AB6359+25]
-	RtlGetAppContainerNamedObjectPath [0x77307C24+228]
-	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
-	at resources.Base.initializeDriver(Base.java:48)
-	at Academy.HomePage.initialize(HomePage.java:26)
-... Removed 32 stack frames
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pageObjects.LandingPage.getLogin(LandingPage.java:25)
+	at Academy.HomePage.basePageNavigation(HomePage.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+... Removed 35 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
-          <div class="suite-Suite-class-skipped">
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="failed.png"/>
               <span class="class-name">Academy.ValidateTitle</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -310,192 +227,18 @@ remote stacktrace: Backtrace:
                   <a name="validateAppTitle">
                   </a> <!-- validateAppTitle -->
                   <span class="method-name">validateAppTitle</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 83
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-DCMMFHS&apos;, ip: &apos;192.168.7.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x004E9563+2725219]
-	Ordinal0 [0x003E8551+1672529]
-	Ordinal0 [0x002D0359+525145]
-	Ordinal0 [0x00260B77+68471]
-	Ordinal0 [0x0025D32C+54060]
-	Ordinal0 [0x0027CC37+183351]
-	Ordinal0 [0x0027CA3D+182845]
-	Ordinal0 [0x0027A94B+174411]
-	Ordinal0 [0x00262528+75048]
-	Ordinal0 [0x002635A0+79264]
-	Ordinal0 [0x00263539+79161]
-	Ordinal0 [0x003FD607+1758727]
-	GetHandleVerifier [0x00606546+1050150]
-	GetHandleVerifier [0x00606291+1049457]
-	GetHandleVerifier [0x006110D7+1094071]
-	GetHandleVerifier [0x00606B46+1051686]
-	Ordinal0 [0x003F5B06+1727238]
-	Ordinal0 [0x003FEB7B+1764219]
-	Ordinal0 [0x003FECE3+1764579]
-	Ordinal0 [0x00414C05+1854469]
-	BaseThreadInitThunk [0x75AB6359+25]
-	RtlGetAppContainerNamedObjectPath [0x77307C24+228]
-	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
-	at resources.Base.initializeDriver(Base.java:48)
-	at Academy.ValidateTitle.initialize(ValidateTitle.java:24)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateCoursesLink">
-                  </a> <!-- validateCoursesLink -->
-                  <span class="method-name">validateCoursesLink</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 83
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-DCMMFHS&apos;, ip: &apos;192.168.7.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x004E9563+2725219]
-	Ordinal0 [0x003E8551+1672529]
-	Ordinal0 [0x002D0359+525145]
-	Ordinal0 [0x00260B77+68471]
-	Ordinal0 [0x0025D32C+54060]
-	Ordinal0 [0x0027CC37+183351]
-	Ordinal0 [0x0027CA3D+182845]
-	Ordinal0 [0x0027A94B+174411]
-	Ordinal0 [0x00262528+75048]
-	Ordinal0 [0x002635A0+79264]
-	Ordinal0 [0x00263539+79161]
-	Ordinal0 [0x003FD607+1758727]
-	GetHandleVerifier [0x00606546+1050150]
-	GetHandleVerifier [0x00606291+1049457]
-	GetHandleVerifier [0x006110D7+1094071]
-	GetHandleVerifier [0x00606B46+1051686]
-	Ordinal0 [0x003F5B06+1727238]
-	Ordinal0 [0x003FEB7B+1764219]
-	Ordinal0 [0x003FECE3+1764579]
-	Ordinal0 [0x00414C05+1854469]
-	BaseThreadInitThunk [0x75AB6359+25]
-	RtlGetAppContainerNamedObjectPath [0x77307C24+228]
-	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
-	at resources.Base.initializeDriver(Base.java:48)
-	at Academy.ValidateTitle.initialize(ValidateTitle.java:24)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateHeader">
-                  </a> <!-- validateHeader -->
-                  <span class="method-name">validateHeader</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 83
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-DCMMFHS&apos;, ip: &apos;192.168.7.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x004E9563+2725219]
-	Ordinal0 [0x003E8551+1672529]
-	Ordinal0 [0x002D0359+525145]
-	Ordinal0 [0x00260B77+68471]
-	Ordinal0 [0x0025D32C+54060]
-	Ordinal0 [0x0027CC37+183351]
-	Ordinal0 [0x0027CA3D+182845]
-	Ordinal0 [0x0027A94B+174411]
-	Ordinal0 [0x00262528+75048]
-	Ordinal0 [0x002635A0+79264]
-	Ordinal0 [0x00263539+79161]
-	Ordinal0 [0x003FD607+1758727]
-	GetHandleVerifier [0x00606546+1050150]
-	GetHandleVerifier [0x00606291+1049457]
-	GetHandleVerifier [0x006110D7+1094071]
-	GetHandleVerifier [0x00606B46+1051686]
-	Ordinal0 [0x003F5B06+1727238]
-	Ordinal0 [0x003FEB7B+1764219]
-	Ordinal0 [0x003FECE3+1764579]
-	Ordinal0 [0x00414C05+1854469]
-	BaseThreadInitThunk [0x75AB6359+25]
-	RtlGetAppContainerNamedObjectPath [0x77307C24+228]
-	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
-	at resources.Base.initializeDriver(Base.java:48)
-	at Academy.ValidateTitle.initialize(ValidateTitle.java:24)
-... Removed 32 stack frames
+                  <div class="stack-trace">java.lang.AssertionError: App Title is missing or wrong. expected [FEATURED COURSES123] but found [FEATURED COURSES]
+	at Academy.ValidateTitle.validateAppTitle(ValidateTitle.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+... Removed 34 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
-          <div class="suite-Suite-class-skipped">
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="failed.png"/>
               <span class="class-name">Academy.ValidateAcademyPage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -504,123 +247,83 @@ remote stacktrace: Backtrace:
                   <a name="validateAppium">
                   </a> <!-- validateAppium -->
                   <span class="method-name">validateAppium</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 83
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[contains (@src, &apos;assets/images/resource/appium.jpg&apos;)]&quot;}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-DCMMFHS&apos;, ip: &apos;192.168.7.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x004E9563+2725219]
-	Ordinal0 [0x003E8551+1672529]
-	Ordinal0 [0x002D0359+525145]
-	Ordinal0 [0x00260B77+68471]
-	Ordinal0 [0x0025D32C+54060]
-	Ordinal0 [0x0027CC37+183351]
-	Ordinal0 [0x0027CA3D+182845]
-	Ordinal0 [0x0027A94B+174411]
-	Ordinal0 [0x00262528+75048]
-	Ordinal0 [0x002635A0+79264]
-	Ordinal0 [0x00263539+79161]
-	Ordinal0 [0x003FD607+1758727]
-	GetHandleVerifier [0x00606546+1050150]
-	GetHandleVerifier [0x00606291+1049457]
-	GetHandleVerifier [0x006110D7+1094071]
-	GetHandleVerifier [0x00606B46+1051686]
-	Ordinal0 [0x003F5B06+1727238]
-	Ordinal0 [0x003FEB7B+1764219]
-	Ordinal0 [0x003FECE3+1764579]
-	Ordinal0 [0x00414C05+1854469]
-	BaseThreadInitThunk [0x75AB6359+25]
-	RtlGetAppContainerNamedObjectPath [0x77307C24+228]
-	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\vladi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59681}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f511f0d22c6f4c009a70d8f37813d424
+*** Element info: {Using=xpath, value=//img[contains (@src, &apos;assets/images/resource/appium.jpg&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
-	at resources.Base.initializeDriver(Base.java:48)
-	at Academy.ValidateAcademyPage.initialize(ValidateAcademyPage.java:25)
-... Removed 32 stack frames
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pageObjects.AcademyPage.getAppiumImage(AcademyPage.java:71)
+	at Academy.ValidateAcademyPage.validateAppium(ValidateAcademyPage.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+... Removed 35 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Academy.HomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="basePageNavigation(RestrictedUser@gmail.com, Password, Restricted User)">
+                  </a> <!-- basePageNavigation(RestrictedUser@gmail.com, Password, Restricted User) -->
+                  <span class="method-name">basePageNavigation</span>
+                  <span class="parameters">(RestrictedUser@gmail.com, Password, Restricted User)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Academy.ValidateTitle</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCoursesLink">
+                  </a> <!-- validateCoursesLink -->
+                  <span class="method-name">validateCoursesLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateHeader">
+                  </a> <!-- validateHeader -->
+                  <span class="method-name">validateHeader</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Academy.ValidateAcademyPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="validateLinkedinLink">
                   </a> <!-- validateLinkedinLink -->
                   <span class="method-name">validateLinkedinLink</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 83
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-DCMMFHS&apos;, ip: &apos;192.168.7.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x004E9563+2725219]
-	Ordinal0 [0x003E8551+1672529]
-	Ordinal0 [0x002D0359+525145]
-	Ordinal0 [0x00260B77+68471]
-	Ordinal0 [0x0025D32C+54060]
-	Ordinal0 [0x0027CC37+183351]
-	Ordinal0 [0x0027CA3D+182845]
-	Ordinal0 [0x0027A94B+174411]
-	Ordinal0 [0x00262528+75048]
-	Ordinal0 [0x002635A0+79264]
-	Ordinal0 [0x00263539+79161]
-	Ordinal0 [0x003FD607+1758727]
-	GetHandleVerifier [0x00606546+1050150]
-	GetHandleVerifier [0x00606291+1049457]
-	GetHandleVerifier [0x006110D7+1094071]
-	GetHandleVerifier [0x00606B46+1051686]
-	Ordinal0 [0x003F5B06+1727238]
-	Ordinal0 [0x003FEB7B+1764219]
-	Ordinal0 [0x003FECE3+1764579]
-	Ordinal0 [0x00414C05+1854469]
-	BaseThreadInitThunk [0x75AB6359+25]
-	RtlGetAppContainerNamedObjectPath [0x77307C24+228]
-	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
-	at resources.Base.initializeDriver(Base.java:48)
-	at Academy.ValidateAcademyPage.initialize(ValidateAcademyPage.java:25)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -628,61 +331,6 @@ remote stacktrace: Backtrace:
                   <a name="validateLinks">
                   </a> <!-- validateLinks -->
                   <span class="method-name">validateLinks</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 83
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-DCMMFHS&apos;, ip: &apos;192.168.7.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x004E9563+2725219]
-	Ordinal0 [0x003E8551+1672529]
-	Ordinal0 [0x002D0359+525145]
-	Ordinal0 [0x00260B77+68471]
-	Ordinal0 [0x0025D32C+54060]
-	Ordinal0 [0x0027CC37+183351]
-	Ordinal0 [0x0027CA3D+182845]
-	Ordinal0 [0x0027A94B+174411]
-	Ordinal0 [0x00262528+75048]
-	Ordinal0 [0x002635A0+79264]
-	Ordinal0 [0x00263539+79161]
-	Ordinal0 [0x003FD607+1758727]
-	GetHandleVerifier [0x00606546+1050150]
-	GetHandleVerifier [0x00606291+1049457]
-	GetHandleVerifier [0x006110D7+1094071]
-	GetHandleVerifier [0x00606B46+1051686]
-	Ordinal0 [0x003F5B06+1727238]
-	Ordinal0 [0x003FEB7B+1764219]
-	Ordinal0 [0x003FECE3+1764579]
-	Ordinal0 [0x00414C05+1854469]
-	BaseThreadInitThunk [0x75AB6359+25]
-	RtlGetAppContainerNamedObjectPath [0x77307C24+228]
-	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
-	at resources.Base.initializeDriver(Base.java:48)
-	at Academy.ValidateAcademyPage.initialize(ValidateAcademyPage.java:25)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -690,61 +338,6 @@ remote stacktrace: Backtrace:
                   <a name="validateLogin">
                   </a> <!-- validateLogin -->
                   <span class="method-name">validateLogin</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 83
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-DCMMFHS&apos;, ip: &apos;192.168.7.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x004E9563+2725219]
-	Ordinal0 [0x003E8551+1672529]
-	Ordinal0 [0x002D0359+525145]
-	Ordinal0 [0x00260B77+68471]
-	Ordinal0 [0x0025D32C+54060]
-	Ordinal0 [0x0027CC37+183351]
-	Ordinal0 [0x0027CA3D+182845]
-	Ordinal0 [0x0027A94B+174411]
-	Ordinal0 [0x00262528+75048]
-	Ordinal0 [0x002635A0+79264]
-	Ordinal0 [0x00263539+79161]
-	Ordinal0 [0x003FD607+1758727]
-	GetHandleVerifier [0x00606546+1050150]
-	GetHandleVerifier [0x00606291+1049457]
-	GetHandleVerifier [0x006110D7+1094071]
-	GetHandleVerifier [0x00606B46+1051686]
-	Ordinal0 [0x003F5B06+1727238]
-	Ordinal0 [0x003FEB7B+1764219]
-	Ordinal0 [0x003FECE3+1764579]
-	Ordinal0 [0x00414C05+1854469]
-	BaseThreadInitThunk [0x75AB6359+25]
-	RtlGetAppContainerNamedObjectPath [0x77307C24+228]
-	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
-	at resources.Base.initializeDriver(Base.java:48)
-	at Academy.ValidateAcademyPage.initialize(ValidateAcademyPage.java:25)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -752,68 +345,13 @@ remote stacktrace: Backtrace:
                   <a name="validateTitle">
                   </a> <!-- validateTitle -->
                   <span class="method-name">validateTitle</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 83
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-DCMMFHS&apos;, ip: &apos;192.168.7.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x004E9563+2725219]
-	Ordinal0 [0x003E8551+1672529]
-	Ordinal0 [0x002D0359+525145]
-	Ordinal0 [0x00260B77+68471]
-	Ordinal0 [0x0025D32C+54060]
-	Ordinal0 [0x0027CC37+183351]
-	Ordinal0 [0x0027CA3D+182845]
-	Ordinal0 [0x0027A94B+174411]
-	Ordinal0 [0x00262528+75048]
-	Ordinal0 [0x002635A0+79264]
-	Ordinal0 [0x00263539+79161]
-	Ordinal0 [0x003FD607+1758727]
-	GetHandleVerifier [0x00606546+1050150]
-	GetHandleVerifier [0x00606291+1049457]
-	GetHandleVerifier [0x006110D7+1094071]
-	GetHandleVerifier [0x00606B46+1051686]
-	Ordinal0 [0x003F5B06+1727238]
-	Ordinal0 [0x003FEB7B+1764219]
-	Ordinal0 [0x003FECE3+1764579]
-	Ordinal0 [0x00414C05+1854469]
-	BaseThreadInitThunk [0x75AB6359+25]
-	RtlGetAppContainerNamedObjectPath [0x77307C24+228]
-	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
-	at resources.Base.initializeDriver(Base.java:48)
-	at Academy.ValidateAcademyPage.initialize(ValidateAcademyPage.java:25)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
-          <div class="suite-Suite-class-skipped">
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
               <span class="class-name">Academy.ValidateNavigationBar</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -822,65 +360,10 @@ remote stacktrace: Backtrace:
                   <a name="validateAppNavigationBar">
                   </a> <!-- validateAppNavigationBar -->
                   <span class="method-name">validateAppNavigationBar</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 83
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-DCMMFHS&apos;, ip: &apos;192.168.7.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x004E9563+2725219]
-	Ordinal0 [0x003E8551+1672529]
-	Ordinal0 [0x002D0359+525145]
-	Ordinal0 [0x00260B77+68471]
-	Ordinal0 [0x0025D32C+54060]
-	Ordinal0 [0x0027CC37+183351]
-	Ordinal0 [0x0027CA3D+182845]
-	Ordinal0 [0x0027A94B+174411]
-	Ordinal0 [0x00262528+75048]
-	Ordinal0 [0x002635A0+79264]
-	Ordinal0 [0x00263539+79161]
-	Ordinal0 [0x003FD607+1758727]
-	GetHandleVerifier [0x00606546+1050150]
-	GetHandleVerifier [0x00606291+1049457]
-	GetHandleVerifier [0x006110D7+1094071]
-	GetHandleVerifier [0x00606B46+1051686]
-	Ordinal0 [0x003F5B06+1727238]
-	Ordinal0 [0x003FEB7B+1764219]
-	Ordinal0 [0x003FECE3+1764579]
-	Ordinal0 [0x00414C05+1854469]
-	BaseThreadInitThunk [0x75AB6359+25]
-	RtlGetAppContainerNamedObjectPath [0x77307C24+228]
-	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
-	at resources.Base.initializeDriver(Base.java:48)
-	at Academy.ValidateNavigationBar.initialize(ValidateNavigationBar.java:23)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -964,52 +447,52 @@ data.addRows(11);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'basePageNavigation')
 data.setCell(0, 2, 'Academy.HomePage')
-data.setCell(0, 3, 0);
+data.setCell(0, 3, 10039);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'basePageNavigation')
-data.setCell(1, 2, 'Academy.HomePage')
-data.setCell(1, 3, 0);
+data.setCell(1, 1, 'validateAppium')
+data.setCell(1, 2, 'Academy.ValidateAcademyPage')
+data.setCell(1, 3, 10024);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'validateAppNavigationBar')
-data.setCell(2, 2, 'Academy.ValidateNavigationBar')
-data.setCell(2, 3, 0);
+data.setCell(2, 1, 'basePageNavigation')
+data.setCell(2, 2, 'Academy.HomePage')
+data.setCell(2, 3, 2739);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'validateCoursesLink')
-data.setCell(3, 2, 'Academy.ValidateTitle')
-data.setCell(3, 3, 0);
+data.setCell(3, 1, 'validateLinks')
+data.setCell(3, 2, 'Academy.ValidateAcademyPage')
+data.setCell(3, 3, 109);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'validateHeader')
 data.setCell(4, 2, 'Academy.ValidateTitle')
-data.setCell(4, 3, 0);
+data.setCell(4, 3, 74);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'validateAppTitle')
-data.setCell(5, 2, 'Academy.ValidateTitle')
-data.setCell(5, 3, 0);
+data.setCell(5, 1, 'validateAppNavigationBar')
+data.setCell(5, 2, 'Academy.ValidateNavigationBar')
+data.setCell(5, 3, 57);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'validateLinkedinLink')
 data.setCell(6, 2, 'Academy.ValidateAcademyPage')
-data.setCell(6, 3, 0);
+data.setCell(6, 3, 49);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'validateTitle')
+data.setCell(7, 1, 'validateLogin')
 data.setCell(7, 2, 'Academy.ValidateAcademyPage')
-data.setCell(7, 3, 0);
+data.setCell(7, 3, 45);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'validateAppium')
+data.setCell(8, 1, 'validateTitle')
 data.setCell(8, 2, 'Academy.ValidateAcademyPage')
-data.setCell(8, 3, 0);
+data.setCell(8, 3, 41);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'validateLinks')
-data.setCell(9, 2, 'Academy.ValidateAcademyPage')
-data.setCell(9, 3, 0);
+data.setCell(9, 1, 'validateAppTitle')
+data.setCell(9, 2, 'Academy.ValidateTitle')
+data.setCell(9, 3, 24);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'validateLogin')
-data.setCell(10, 2, 'Academy.ValidateAcademyPage')
-data.setCell(10, 3, 0);
+data.setCell(10, 1, 'validateCoursesLink')
+data.setCell(10, 2, 'Academy.ValidateTitle')
+data.setCell(10, 3, 23);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -1044,97 +527,95 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">Academy.HomePage</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">initialize</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">basePageNavigation</span>
-                <span class="method-start">1759 ms</span>
+                <span class="method-name">basePageNavigation(RestrictedUser@gmail.com, Password, Restricted User)</span>
+                <span class="method-start">20285 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">basePageNavigation</span>
-                <span class="method-start">1762 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">basePageNavigation(NoneRestrictedUser@gmail.com, NewPassword!, None Restricted User)</span>
+                <span class="method-start">23029 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">1764 ms</span>
+                <span class="method-start">33566 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Academy.ValidateNavigationBar</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">initialize</span>
-                <span class="method-start">2135 ms</span>
+                <span class="method-start">33988 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">validateAppNavigationBar</span>
-                <span class="method-start">3223 ms</span>
+                <span class="method-start">39352 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">3223 ms</span>
+                <span class="method-start">39409 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Academy.ValidateTitle</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">initialize</span>
-                <span class="method-start">3260 ms</span>
+                <span class="method-start">39529 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">validateAppTitle</span>
-                <span class="method-start">4338 ms</span>
+                <span class="method-start">45135 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">validateCoursesLink</span>
-                <span class="method-start">4339 ms</span>
+                <span class="method-start">45917 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">validateHeader</span>
-                <span class="method-start">4340 ms</span>
+                <span class="method-start">45941 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">4341 ms</span>
+                <span class="method-start">46015 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Academy.ValidateAcademyPage</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">initialize</span>
-                <span class="method-start">4383 ms</span>
+                <span class="method-start">46134 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">validateAppium</span>
-                <span class="method-start">5468 ms</span>
+                <span class="method-start">50125 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">validateLinkedinLink</span>
-                <span class="method-start">5468 ms</span>
+                <span class="method-start">60740 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">validateLinks</span>
-                <span class="method-start">5468 ms</span>
+                <span class="method-start">60789 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">validateLogin</span>
-                <span class="method-start">5469 ms</span>
+                <span class="method-start">60898 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">validateTitle</span>
-                <span class="method-start">5469 ms</span>
+                <span class="method-start">60943 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">5470 ms</span>
+                <span class="method-start">60984 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

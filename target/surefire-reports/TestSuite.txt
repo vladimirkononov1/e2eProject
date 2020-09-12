@@ -1,136 +1,34 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 19, Failures: 4, Errors: 0, Skipped: 15, Time elapsed: 6.717 s <<< FAILURE! - in TestSuite
-initialize(Academy.HomePage)  Time elapsed: 2.796 s  <<< FAILURE!
-org.openqa.selenium.SessionNotCreatedException: 
-session not created: This version of ChromeDriver only supports Chrome version 83
+Tests run: 11, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 66.045 s <<< FAILURE! - in TestSuite
+basePageNavigation(Academy.HomePage)  Time elapsed: 10.535 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"a[href*='sign_in']"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-DCMMFHS', ip: '192.168.7.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x004E9563+2725219]
-	Ordinal0 [0x003E8551+1672529]
-	Ordinal0 [0x002D0359+525145]
-	Ordinal0 [0x00260B77+68471]
-	Ordinal0 [0x0025D32C+54060]
-	Ordinal0 [0x0027CC37+183351]
-	Ordinal0 [0x0027CA3D+182845]
-	Ordinal0 [0x0027A94B+174411]
-	Ordinal0 [0x00262528+75048]
-	Ordinal0 [0x002635A0+79264]
-	Ordinal0 [0x00263539+79161]
-	Ordinal0 [0x003FD607+1758727]
-	GetHandleVerifier [0x00606546+1050150]
-	GetHandleVerifier [0x00606291+1049457]
-	GetHandleVerifier [0x006110D7+1094071]
-	GetHandleVerifier [0x00606B46+1051686]
-	Ordinal0 [0x003F5B06+1727238]
-	Ordinal0 [0x003FEB7B+1764219]
-	Ordinal0 [0x003FECE3+1764579]
-	Ordinal0 [0x00414C05+1854469]
-	BaseThreadInitThunk [0x75AB6359+25]
-	RtlGetAppContainerNamedObjectPath [0x77307C24+228]
-	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\vladi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59519}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6032e6fc6bbb16ed948c478b138e10a3
+*** Element info: {Using=css selector, value=a[href*='sign_in']}
+	at Academy.HomePage.basePageNavigation(HomePage.java:42)
 
-	at Academy.HomePage.initialize(HomePage.java:26)
+validateAppTitle(Academy.ValidateTitle)  Time elapsed: 0.78 s  <<< FAILURE!
+java.lang.AssertionError: App Title is missing or wrong. expected [FEATURED COURSES123] but found [FEATURED COURSES]
+	at Academy.ValidateTitle.validateAppTitle(ValidateTitle.java:40)
 
-initialize(Academy.ValidateNavigationBar)  Time elapsed: 1.461 s  <<< FAILURE!
-org.openqa.selenium.SessionNotCreatedException: 
-session not created: This version of ChromeDriver only supports Chrome version 83
+validateAppium(Academy.ValidateAcademyPage)  Time elapsed: 10.614 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//img[contains (@src, 'assets/images/resource/appium.jpg')]"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-DCMMFHS', ip: '192.168.7.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x004E9563+2725219]
-	Ordinal0 [0x003E8551+1672529]
-	Ordinal0 [0x002D0359+525145]
-	Ordinal0 [0x00260B77+68471]
-	Ordinal0 [0x0025D32C+54060]
-	Ordinal0 [0x0027CC37+183351]
-	Ordinal0 [0x0027CA3D+182845]
-	Ordinal0 [0x0027A94B+174411]
-	Ordinal0 [0x00262528+75048]
-	Ordinal0 [0x002635A0+79264]
-	Ordinal0 [0x00263539+79161]
-	Ordinal0 [0x003FD607+1758727]
-	GetHandleVerifier [0x00606546+1050150]
-	GetHandleVerifier [0x00606291+1049457]
-	GetHandleVerifier [0x006110D7+1094071]
-	GetHandleVerifier [0x00606B46+1051686]
-	Ordinal0 [0x003F5B06+1727238]
-	Ordinal0 [0x003FEB7B+1764219]
-	Ordinal0 [0x003FECE3+1764579]
-	Ordinal0 [0x00414C05+1854469]
-	BaseThreadInitThunk [0x75AB6359+25]
-	RtlGetAppContainerNamedObjectPath [0x77307C24+228]
-	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]
-
-	at Academy.ValidateNavigationBar.initialize(ValidateNavigationBar.java:23)
-
-initialize(Academy.ValidateTitle)  Time elapsed: 1.114 s  <<< FAILURE!
-org.openqa.selenium.SessionNotCreatedException: 
-session not created: This version of ChromeDriver only supports Chrome version 83
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-DCMMFHS', ip: '192.168.7.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x004E9563+2725219]
-	Ordinal0 [0x003E8551+1672529]
-	Ordinal0 [0x002D0359+525145]
-	Ordinal0 [0x00260B77+68471]
-	Ordinal0 [0x0025D32C+54060]
-	Ordinal0 [0x0027CC37+183351]
-	Ordinal0 [0x0027CA3D+182845]
-	Ordinal0 [0x0027A94B+174411]
-	Ordinal0 [0x00262528+75048]
-	Ordinal0 [0x002635A0+79264]
-	Ordinal0 [0x00263539+79161]
-	Ordinal0 [0x003FD607+1758727]
-	GetHandleVerifier [0x00606546+1050150]
-	GetHandleVerifier [0x00606291+1049457]
-	GetHandleVerifier [0x006110D7+1094071]
-	GetHandleVerifier [0x00606B46+1051686]
-	Ordinal0 [0x003F5B06+1727238]
-	Ordinal0 [0x003FEB7B+1764219]
-	Ordinal0 [0x003FECE3+1764579]
-	Ordinal0 [0x00414C05+1854469]
-	BaseThreadInitThunk [0x75AB6359+25]
-	RtlGetAppContainerNamedObjectPath [0x77307C24+228]
-	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]
-
-	at Academy.ValidateTitle.initialize(ValidateTitle.java:24)
-
-initialize(Academy.ValidateAcademyPage)  Time elapsed: 1.126 s  <<< FAILURE!
-org.openqa.selenium.SessionNotCreatedException: 
-session not created: This version of ChromeDriver only supports Chrome version 83
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-DCMMFHS', ip: '192.168.7.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x004E9563+2725219]
-	Ordinal0 [0x003E8551+1672529]
-	Ordinal0 [0x002D0359+525145]
-	Ordinal0 [0x00260B77+68471]
-	Ordinal0 [0x0025D32C+54060]
-	Ordinal0 [0x0027CC37+183351]
-	Ordinal0 [0x0027CA3D+182845]
-	Ordinal0 [0x0027A94B+174411]
-	Ordinal0 [0x00262528+75048]
-	Ordinal0 [0x002635A0+79264]
-	Ordinal0 [0x00263539+79161]
-	Ordinal0 [0x003FD607+1758727]
-	GetHandleVerifier [0x00606546+1050150]
-	GetHandleVerifier [0x00606291+1049457]
-	GetHandleVerifier [0x006110D7+1094071]
-	GetHandleVerifier [0x00606B46+1051686]
-	Ordinal0 [0x003F5B06+1727238]
-	Ordinal0 [0x003FEB7B+1764219]
-	Ordinal0 [0x003FECE3+1764579]
-	Ordinal0 [0x00414C05+1854469]
-	BaseThreadInitThunk [0x75AB6359+25]
-	RtlGetAppContainerNamedObjectPath [0x77307C24+228]
-	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]
-
-	at Academy.ValidateAcademyPage.initialize(ValidateAcademyPage.java:25)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\vladi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59681}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f511f0d22c6f4c009a70d8f37813d424
+*** Element info: {Using=xpath, value=//img[contains (@src, 'assets/images/resource/appium.jpg')]}
+	at Academy.ValidateAcademyPage.validateAppium(ValidateAcademyPage.java:70)
 

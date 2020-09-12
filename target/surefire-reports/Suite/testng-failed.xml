@@ -8,30 +8,17 @@
     <classes>
       <class name="Academy.HomePage">
         <methods>
-          <include name="basePageNavigation"/>
+          <include name="basePageNavigation" invocation-numbers="1"/>
           <include name="initialize"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- Academy.HomePage -->
     </classes>
   </test> <!-- Validating User Login(failed) -->
-  <test thread-count="5" name="Validating Navigation Bar(failed)" verbose="0">
-    <classes>
-      <class name="Academy.ValidateNavigationBar">
-        <methods>
-          <include name="initialize"/>
-          <include name="validateAppNavigationBar"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Academy.ValidateNavigationBar -->
-    </classes>
-  </test> <!-- Validating Navigation Bar(failed) -->
   <test thread-count="5" name="Validating Title in the Page(failed)" verbose="0">
     <classes>
       <class name="Academy.ValidateTitle">
         <methods>
-          <include name="validateHeader"/>
-          <include name="validateCoursesLink"/>
           <include name="validateAppTitle"/>
           <include name="initialize"/>
           <include name="tearDown"/>
@@ -45,10 +32,6 @@
         <methods>
           <include name="validateAppium"/>
           <include name="tearDown"/>
-          <include name="validateLinkedinLink"/>
-          <include name="validateLinks"/>
-          <include name="validateTitle"/>
-          <include name="validateLogin"/>
           <include name="initialize"/>
         </methods>
       </class> <!-- Academy.ValidateAcademyPage -->
