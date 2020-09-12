@@ -1,15 +1,15 @@
-20:09:14.244 [main] INFO  resources.Base - Restricted User
-20:09:17.254 [main] INFO  resources.Base - Navigated to Login Page
-20:09:19.902 [main] INFO  resources.Base - None Restricted User
-20:09:29.134 [main] INFO  resources.Base - Navigation Bar is displayed
-20:09:34.332 [main] INFO  resources.Base - Driver is initialized
-20:09:37.212 [main] INFO  resources.Base - Navigated to Home page
-20:09:49.004 [main] INFO  resources.Base - Appium link is validated
-20:09:49.076 [main] INFO  resources.Base - Linkedin link is present
-20:09:49.255 [main] INFO  resources.Base - Courses links are present on the page
-20:09:49.312 [main] INFO  resources.Base - Login button is present
-20:09:49.369 [main] INFO  resources.Base - Title contains "Featured Courses" text
-12:01:08.633 [main] INFO  resources.Base - Navigated to Login Page
-12:01:10.779 [main] INFO  resources.Base - Restricted User
-12:01:12.908 [main] INFO  resources.Base - Navigated to Login Page
-12:01:16.119 [main] INFO  resources.Base - None Restricted User
+11:13:24.238 [main] INFO  resources.Base - Driver is initialized
+11:13:28.398 [main] INFO  resources.Base - Navigated to Home page
+11:13:48.755 [main] INFO  resources.Base - Linkedin link is present
+11:13:59.098 [main] INFO  resources.Base - Login button is present
+11:13:59.124 [main] INFO  resources.Base - Title contains "Featured Courses" text
+13:45:37.257 [main] INFO  resources.Base - Navigated to Login Page
+13:45:38.075 [main] INFO  resources.Base - Restricted User
+13:46:00.873 [main] INFO  resources.Base - Navigation Bar is displayed
+13:46:05.670 [main] INFO  resources.Base - Driver is initialized
+13:46:12.517 [main] INFO  resources.Base - Navigated to Home page
+13:46:38.677 [main] INFO  resources.Base - Linkedin link is present
+13:46:51.256 [main] INFO  resources.Base - Login button is present
+13:46:51.915 [main] INFO  resources.Base - Title contains "Featured Courses" text
+15:22:34.459 [main] INFO  resources.Base - Driver is initialized
+15:22:40.948 [main] INFO  resources.Base - Navigated to Home page

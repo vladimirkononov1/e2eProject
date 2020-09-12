@@ -4,10 +4,34 @@
   <listeners>
     <listener class-name="Academy.Listeners"/>
   </listeners>
+  <test thread-count="5" name="Validating User Login(failed)">
+    <classes>
+      <class name="Academy.HomePage">
+        <methods>
+          <include name="basePageNavigation"/>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Academy.HomePage -->
+    </classes>
+  </test> <!-- Validating User Login(failed) -->
+  <test thread-count="5" name="Validating Navigation Bar(failed)">
+    <classes>
+      <class name="Academy.ValidateNavigationBar">
+        <methods>
+          <include name="initialize"/>
+          <include name="validateAppNavigationBar"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Academy.ValidateNavigationBar -->
+    </classes>
+  </test> <!-- Validating Navigation Bar(failed) -->
   <test thread-count="5" name="Validating Title in the Page(failed)">
     <classes>
       <class name="Academy.ValidateTitle">
         <methods>
+          <include name="validateHeader"/>
+          <include name="validateCoursesLink"/>
           <include name="validateAppTitle"/>
           <include name="initialize"/>
           <include name="tearDown"/>
@@ -15,4 +39,19 @@
       </class> <!-- Academy.ValidateTitle -->
     </classes>
   </test> <!-- Validating Title in the Page(failed) -->
+  <test thread-count="5" name="Validating Academy Page(failed)">
+    <classes>
+      <class name="Academy.ValidateAcademyPage">
+        <methods>
+          <include name="validateAppium"/>
+          <include name="tearDown"/>
+          <include name="validateLinkedinLink"/>
+          <include name="validateLinks"/>
+          <include name="validateTitle"/>
+          <include name="validateLogin"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.ValidateAcademyPage -->
+    </classes>
+  </test> <!-- Validating Academy Page(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,33 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="95.301" tests="11" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="6.717" tests="19" errors="0" skipped="15" failures="4">
   <properties>
     <property name="java.specification.version" value="13"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:/Users/vladi/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.class.path" value="C:\Users\vladi\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="America/Los_Angeles"/>
-    <property name="maven.conf" value="C:/Users/vladi/apache-maven-3.6.3/conf"/>
+    <property name="maven.conf" value="C:\Users\vladi\apache-maven-3.6.3\bin\../conf"/>
     <property name="java.vm.specification.version" value="13"/>
     <property name="os.name" value="Windows 10"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dbrowser=firefox"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="jdk.debug" value="release"/>
-    <property name="maven.home" value="C:\Users\vladi\apache-maven-3.6.3"/>
+    <property name="maven.home" value="C:\Users\vladi\apache-maven-3.6.3\bin\.."/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\vladi"/>
     <property name="user.language" value="en"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.version.date" value="2020-01-14"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-13.0.2"/>
     <property name="file.separator" value="\"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="user.script" value=""/>
@@ -39,59 +41,231 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="browser" value="firefox"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\vladi\AppData\Local\Temp\"/>
     <property name="java.version" value="13.0.2"/>
     <property name="user.dir" value="C:\Users\vladi\workspace\E2EProject"/>
     <property name="os.arch" value="amd64"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:/Users/vladi/workspace/E2EProject"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\vladi\workspace\E2EProject"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Users\vladi\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\vladi\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0;C:\windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\Java\jdk-13.0.2\bin;C:\Users\vladi\AppData\Local\Android\Sdk\tools\bin;C:\Users\vladi\AppData\Local\Android\Sdk\tools;C:\Users\vladi\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\Java\jdk-13.0.2\bin;C:\Users\vladi\apache-maven-3.6.3\bin;C:\Users\vladi\AppData\Local\Microsoft\WindowsApps;C:\Users\vladi\AppData\Roaming\npm;C:\Users\vladi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-13.0.2\bin;C:\Users\vladi\AppData\Local\Android\Sdk\tools\bin;C:\Users\vladi\AppData\Local\Android\Sdk\tools;C:\Users\vladi\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\Java\jdk-13.0.2\bin;C:\Users\vladi\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Users\vladi\apache-ant-1.9.15-bin\apache-ant-1.9.15\bin;C:\Users\vladi\AppData\Local\Microsoft\WindowsApps;C:\Users\vladi\AppData\Roaming\npm;C:\Users\vladi\AppData\Local\Programs\Microsoft VS Code\bin;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="13.0.2+8"/>
-    <property name="classworlds.conf" value="C:/Users/vladi/apache-maven-3.6.3/bin/m2.conf"/>
+    <property name="classworlds.conf" value="C:\Users\vladi\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="library.jansi.path" value="C:/Users/vladi/apache-maven-3.6.3/lib/jansi-native"/>
+    <property name="library.jansi.path" value="C:\Users\vladi\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
     <property name="java.class.version" value="57.0"/>
   </properties>
-  <testcase name="basePageNavigation" classname="Academy.HomePage" time="13.843"/>
-  <testcase name="basePageNavigation" classname="Academy.HomePage" time="9.758"/>
-  <testcase name="validateAppNavigationBar" classname="Academy.ValidateNavigationBar" time="0.623"/>
-  <testcase name="validateAppTitle" classname="Academy.ValidateTitle" time="0.276">
-    <failure message="App Title is missing or wrong. expected [FEATURED COURSES123] but found [FEATURED COURSES]" type="java.lang.AssertionError">java.lang.AssertionError: App Title is missing or wrong. expected [FEATURED COURSES123] but found [FEATURED COURSES]
-	at Academy.ValidateTitle.validateAppTitle(ValidateTitle.java:40)
+  <testcase name="initialize" classname="Academy.HomePage" time="2.796">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 83&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-DCMMFHS&apos;, ip: &apos;192.168.7.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x004E9563+2725219]&#10;	Ordinal0 [0x003E8551+1672529]&#10;	Ordinal0 [0x002D0359+525145]&#10;	Ordinal0 [0x00260B77+68471]&#10;	Ordinal0 [0x0025D32C+54060]&#10;	Ordinal0 [0x0027CC37+183351]&#10;	Ordinal0 [0x0027CA3D+182845]&#10;	Ordinal0 [0x0027A94B+174411]&#10;	Ordinal0 [0x00262528+75048]&#10;	Ordinal0 [0x002635A0+79264]&#10;	Ordinal0 [0x00263539+79161]&#10;	Ordinal0 [0x003FD607+1758727]&#10;	GetHandleVerifier [0x00606546+1050150]&#10;	GetHandleVerifier [0x00606291+1049457]&#10;	GetHandleVerifier [0x006110D7+1094071]&#10;	GetHandleVerifier [0x00606B46+1051686]&#10;	Ordinal0 [0x003F5B06+1727238]&#10;	Ordinal0 [0x003FEB7B+1764219]&#10;	Ordinal0 [0x003FECE3+1764579]&#10;	Ordinal0 [0x00414C05+1854469]&#10;	BaseThreadInitThunk [0x75AB6359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77307C24+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DCMMFHS', ip: '192.168.7.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004E9563+2725219]
+	Ordinal0 [0x003E8551+1672529]
+	Ordinal0 [0x002D0359+525145]
+	Ordinal0 [0x00260B77+68471]
+	Ordinal0 [0x0025D32C+54060]
+	Ordinal0 [0x0027CC37+183351]
+	Ordinal0 [0x0027CA3D+182845]
+	Ordinal0 [0x0027A94B+174411]
+	Ordinal0 [0x00262528+75048]
+	Ordinal0 [0x002635A0+79264]
+	Ordinal0 [0x00263539+79161]
+	Ordinal0 [0x003FD607+1758727]
+	GetHandleVerifier [0x00606546+1050150]
+	GetHandleVerifier [0x00606291+1049457]
+	GetHandleVerifier [0x006110D7+1094071]
+	GetHandleVerifier [0x00606B46+1051686]
+	Ordinal0 [0x003F5B06+1727238]
+	Ordinal0 [0x003FEB7B+1764219]
+	Ordinal0 [0x003FECE3+1764579]
+	Ordinal0 [0x00414C05+1854469]
+	BaseThreadInitThunk [0x75AB6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77307C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]
+
+	at Academy.HomePage.initialize(HomePage.java:26)
 </failure>
-    <system-out><![CDATA[firefox
+    <system-out><![CDATA[chrome
 ]]></system-out>
-    <system-err><![CDATA[1589237129591	Marionette	INFO	Stopped listening on port 59401
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-1589237132903	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\vladi\\AppData\\Local\\Temp\\rust_mozprofileNxm9Ee"
-1589237133294	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
-1589237133803	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1589237133803	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1589237133803	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1589237133804	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1589237138225	Marionette	INFO	Listening on port 59463
-1589237138629	Marionette	WARN	TLS certificate errors will be ignored for this session
-May 11, 2020 3:45:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 11200
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
 ]]></system-err>
   </testcase>
-  <testcase name="validateCoursesLink" classname="Academy.ValidateTitle" time="0.083"/>
-  <testcase name="validateHeader" classname="Academy.ValidateTitle" time="0.049"/>
-  <testcase name="validateAppium" classname="Academy.ValidateAcademyPage" time="0.454"/>
-  <testcase name="validateLinkedinLink" classname="Academy.ValidateAcademyPage" time="0.146"/>
-  <testcase name="validateLinks" classname="Academy.ValidateAcademyPage" time="0.417"/>
-  <testcase name="validateLogin" classname="Academy.ValidateAcademyPage" time="0.071"/>
-  <testcase name="validateTitle" classname="Academy.ValidateAcademyPage" time="0.06"/>
+  <testcase name="basePageNavigation" classname="Academy.HomePage" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 83&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-DCMMFHS&apos;, ip: &apos;192.168.7.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x004E9563+2725219]&#10;	Ordinal0 [0x003E8551+1672529]&#10;	Ordinal0 [0x002D0359+525145]&#10;	Ordinal0 [0x00260B77+68471]&#10;	Ordinal0 [0x0025D32C+54060]&#10;	Ordinal0 [0x0027CC37+183351]&#10;	Ordinal0 [0x0027CA3D+182845]&#10;	Ordinal0 [0x0027A94B+174411]&#10;	Ordinal0 [0x00262528+75048]&#10;	Ordinal0 [0x002635A0+79264]&#10;	Ordinal0 [0x00263539+79161]&#10;	Ordinal0 [0x003FD607+1758727]&#10;	GetHandleVerifier [0x00606546+1050150]&#10;	GetHandleVerifier [0x00606291+1049457]&#10;	GetHandleVerifier [0x006110D7+1094071]&#10;	GetHandleVerifier [0x00606B46+1051686]&#10;	Ordinal0 [0x003F5B06+1727238]&#10;	Ordinal0 [0x003FEB7B+1764219]&#10;	Ordinal0 [0x003FECE3+1764579]&#10;	Ordinal0 [0x00414C05+1854469]&#10;	BaseThreadInitThunk [0x75AB6359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77307C24+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]&#10;"/>
+  </testcase>
+  <testcase name="basePageNavigation" classname="Academy.HomePage" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 83&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-DCMMFHS&apos;, ip: &apos;192.168.7.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x004E9563+2725219]&#10;	Ordinal0 [0x003E8551+1672529]&#10;	Ordinal0 [0x002D0359+525145]&#10;	Ordinal0 [0x00260B77+68471]&#10;	Ordinal0 [0x0025D32C+54060]&#10;	Ordinal0 [0x0027CC37+183351]&#10;	Ordinal0 [0x0027CA3D+182845]&#10;	Ordinal0 [0x0027A94B+174411]&#10;	Ordinal0 [0x00262528+75048]&#10;	Ordinal0 [0x002635A0+79264]&#10;	Ordinal0 [0x00263539+79161]&#10;	Ordinal0 [0x003FD607+1758727]&#10;	GetHandleVerifier [0x00606546+1050150]&#10;	GetHandleVerifier [0x00606291+1049457]&#10;	GetHandleVerifier [0x006110D7+1094071]&#10;	GetHandleVerifier [0x00606B46+1051686]&#10;	Ordinal0 [0x003F5B06+1727238]&#10;	Ordinal0 [0x003FEB7B+1764219]&#10;	Ordinal0 [0x003FECE3+1764579]&#10;	Ordinal0 [0x00414C05+1854469]&#10;	BaseThreadInitThunk [0x75AB6359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77307C24+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]&#10;"/>
+  </testcase>
+  <testcase name="tearDown" classname="Academy.HomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialize" classname="Academy.ValidateNavigationBar" time="1.461">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 83&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-DCMMFHS&apos;, ip: &apos;192.168.7.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x004E9563+2725219]&#10;	Ordinal0 [0x003E8551+1672529]&#10;	Ordinal0 [0x002D0359+525145]&#10;	Ordinal0 [0x00260B77+68471]&#10;	Ordinal0 [0x0025D32C+54060]&#10;	Ordinal0 [0x0027CC37+183351]&#10;	Ordinal0 [0x0027CA3D+182845]&#10;	Ordinal0 [0x0027A94B+174411]&#10;	Ordinal0 [0x00262528+75048]&#10;	Ordinal0 [0x002635A0+79264]&#10;	Ordinal0 [0x00263539+79161]&#10;	Ordinal0 [0x003FD607+1758727]&#10;	GetHandleVerifier [0x00606546+1050150]&#10;	GetHandleVerifier [0x00606291+1049457]&#10;	GetHandleVerifier [0x006110D7+1094071]&#10;	GetHandleVerifier [0x00606B46+1051686]&#10;	Ordinal0 [0x003F5B06+1727238]&#10;	Ordinal0 [0x003FEB7B+1764219]&#10;	Ordinal0 [0x003FECE3+1764579]&#10;	Ordinal0 [0x00414C05+1854469]&#10;	BaseThreadInitThunk [0x75AB6359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77307C24+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DCMMFHS', ip: '192.168.7.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004E9563+2725219]
+	Ordinal0 [0x003E8551+1672529]
+	Ordinal0 [0x002D0359+525145]
+	Ordinal0 [0x00260B77+68471]
+	Ordinal0 [0x0025D32C+54060]
+	Ordinal0 [0x0027CC37+183351]
+	Ordinal0 [0x0027CA3D+182845]
+	Ordinal0 [0x0027A94B+174411]
+	Ordinal0 [0x00262528+75048]
+	Ordinal0 [0x002635A0+79264]
+	Ordinal0 [0x00263539+79161]
+	Ordinal0 [0x003FD607+1758727]
+	GetHandleVerifier [0x00606546+1050150]
+	GetHandleVerifier [0x00606291+1049457]
+	GetHandleVerifier [0x006110D7+1094071]
+	GetHandleVerifier [0x00606B46+1051686]
+	Ordinal0 [0x003F5B06+1727238]
+	Ordinal0 [0x003FEB7B+1764219]
+	Ordinal0 [0x003FECE3+1764579]
+	Ordinal0 [0x00414C05+1854469]
+	BaseThreadInitThunk [0x75AB6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77307C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]
+
+	at Academy.ValidateNavigationBar.initialize(ValidateNavigationBar.java:23)
+</failure>
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 4669
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="validateAppNavigationBar" classname="Academy.ValidateNavigationBar" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 83&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-DCMMFHS&apos;, ip: &apos;192.168.7.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x004E9563+2725219]&#10;	Ordinal0 [0x003E8551+1672529]&#10;	Ordinal0 [0x002D0359+525145]&#10;	Ordinal0 [0x00260B77+68471]&#10;	Ordinal0 [0x0025D32C+54060]&#10;	Ordinal0 [0x0027CC37+183351]&#10;	Ordinal0 [0x0027CA3D+182845]&#10;	Ordinal0 [0x0027A94B+174411]&#10;	Ordinal0 [0x00262528+75048]&#10;	Ordinal0 [0x002635A0+79264]&#10;	Ordinal0 [0x00263539+79161]&#10;	Ordinal0 [0x003FD607+1758727]&#10;	GetHandleVerifier [0x00606546+1050150]&#10;	GetHandleVerifier [0x00606291+1049457]&#10;	GetHandleVerifier [0x006110D7+1094071]&#10;	GetHandleVerifier [0x00606B46+1051686]&#10;	Ordinal0 [0x003F5B06+1727238]&#10;	Ordinal0 [0x003FEB7B+1764219]&#10;	Ordinal0 [0x003FECE3+1764579]&#10;	Ordinal0 [0x00414C05+1854469]&#10;	BaseThreadInitThunk [0x75AB6359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77307C24+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]&#10;"/>
+  </testcase>
+  <testcase name="tearDown" classname="Academy.ValidateNavigationBar" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialize" classname="Academy.ValidateTitle" time="1.114">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 83&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-DCMMFHS&apos;, ip: &apos;192.168.7.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x004E9563+2725219]&#10;	Ordinal0 [0x003E8551+1672529]&#10;	Ordinal0 [0x002D0359+525145]&#10;	Ordinal0 [0x00260B77+68471]&#10;	Ordinal0 [0x0025D32C+54060]&#10;	Ordinal0 [0x0027CC37+183351]&#10;	Ordinal0 [0x0027CA3D+182845]&#10;	Ordinal0 [0x0027A94B+174411]&#10;	Ordinal0 [0x00262528+75048]&#10;	Ordinal0 [0x002635A0+79264]&#10;	Ordinal0 [0x00263539+79161]&#10;	Ordinal0 [0x003FD607+1758727]&#10;	GetHandleVerifier [0x00606546+1050150]&#10;	GetHandleVerifier [0x00606291+1049457]&#10;	GetHandleVerifier [0x006110D7+1094071]&#10;	GetHandleVerifier [0x00606B46+1051686]&#10;	Ordinal0 [0x003F5B06+1727238]&#10;	Ordinal0 [0x003FEB7B+1764219]&#10;	Ordinal0 [0x003FECE3+1764579]&#10;	Ordinal0 [0x00414C05+1854469]&#10;	BaseThreadInitThunk [0x75AB6359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77307C24+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DCMMFHS', ip: '192.168.7.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004E9563+2725219]
+	Ordinal0 [0x003E8551+1672529]
+	Ordinal0 [0x002D0359+525145]
+	Ordinal0 [0x00260B77+68471]
+	Ordinal0 [0x0025D32C+54060]
+	Ordinal0 [0x0027CC37+183351]
+	Ordinal0 [0x0027CA3D+182845]
+	Ordinal0 [0x0027A94B+174411]
+	Ordinal0 [0x00262528+75048]
+	Ordinal0 [0x002635A0+79264]
+	Ordinal0 [0x00263539+79161]
+	Ordinal0 [0x003FD607+1758727]
+	GetHandleVerifier [0x00606546+1050150]
+	GetHandleVerifier [0x00606291+1049457]
+	GetHandleVerifier [0x006110D7+1094071]
+	GetHandleVerifier [0x00606B46+1051686]
+	Ordinal0 [0x003F5B06+1727238]
+	Ordinal0 [0x003FEB7B+1764219]
+	Ordinal0 [0x003FECE3+1764579]
+	Ordinal0 [0x00414C05+1854469]
+	BaseThreadInitThunk [0x75AB6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77307C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]
+
+	at Academy.ValidateTitle.initialize(ValidateTitle.java:24)
+</failure>
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 13236
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="validateAppTitle" classname="Academy.ValidateTitle" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 83&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-DCMMFHS&apos;, ip: &apos;192.168.7.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x004E9563+2725219]&#10;	Ordinal0 [0x003E8551+1672529]&#10;	Ordinal0 [0x002D0359+525145]&#10;	Ordinal0 [0x00260B77+68471]&#10;	Ordinal0 [0x0025D32C+54060]&#10;	Ordinal0 [0x0027CC37+183351]&#10;	Ordinal0 [0x0027CA3D+182845]&#10;	Ordinal0 [0x0027A94B+174411]&#10;	Ordinal0 [0x00262528+75048]&#10;	Ordinal0 [0x002635A0+79264]&#10;	Ordinal0 [0x00263539+79161]&#10;	Ordinal0 [0x003FD607+1758727]&#10;	GetHandleVerifier [0x00606546+1050150]&#10;	GetHandleVerifier [0x00606291+1049457]&#10;	GetHandleVerifier [0x006110D7+1094071]&#10;	GetHandleVerifier [0x00606B46+1051686]&#10;	Ordinal0 [0x003F5B06+1727238]&#10;	Ordinal0 [0x003FEB7B+1764219]&#10;	Ordinal0 [0x003FECE3+1764579]&#10;	Ordinal0 [0x00414C05+1854469]&#10;	BaseThreadInitThunk [0x75AB6359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77307C24+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]&#10;"/>
+  </testcase>
+  <testcase name="validateCoursesLink" classname="Academy.ValidateTitle" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 83&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-DCMMFHS&apos;, ip: &apos;192.168.7.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x004E9563+2725219]&#10;	Ordinal0 [0x003E8551+1672529]&#10;	Ordinal0 [0x002D0359+525145]&#10;	Ordinal0 [0x00260B77+68471]&#10;	Ordinal0 [0x0025D32C+54060]&#10;	Ordinal0 [0x0027CC37+183351]&#10;	Ordinal0 [0x0027CA3D+182845]&#10;	Ordinal0 [0x0027A94B+174411]&#10;	Ordinal0 [0x00262528+75048]&#10;	Ordinal0 [0x002635A0+79264]&#10;	Ordinal0 [0x00263539+79161]&#10;	Ordinal0 [0x003FD607+1758727]&#10;	GetHandleVerifier [0x00606546+1050150]&#10;	GetHandleVerifier [0x00606291+1049457]&#10;	GetHandleVerifier [0x006110D7+1094071]&#10;	GetHandleVerifier [0x00606B46+1051686]&#10;	Ordinal0 [0x003F5B06+1727238]&#10;	Ordinal0 [0x003FEB7B+1764219]&#10;	Ordinal0 [0x003FECE3+1764579]&#10;	Ordinal0 [0x00414C05+1854469]&#10;	BaseThreadInitThunk [0x75AB6359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77307C24+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]&#10;"/>
+  </testcase>
+  <testcase name="validateHeader" classname="Academy.ValidateTitle" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 83&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-DCMMFHS&apos;, ip: &apos;192.168.7.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x004E9563+2725219]&#10;	Ordinal0 [0x003E8551+1672529]&#10;	Ordinal0 [0x002D0359+525145]&#10;	Ordinal0 [0x00260B77+68471]&#10;	Ordinal0 [0x0025D32C+54060]&#10;	Ordinal0 [0x0027CC37+183351]&#10;	Ordinal0 [0x0027CA3D+182845]&#10;	Ordinal0 [0x0027A94B+174411]&#10;	Ordinal0 [0x00262528+75048]&#10;	Ordinal0 [0x002635A0+79264]&#10;	Ordinal0 [0x00263539+79161]&#10;	Ordinal0 [0x003FD607+1758727]&#10;	GetHandleVerifier [0x00606546+1050150]&#10;	GetHandleVerifier [0x00606291+1049457]&#10;	GetHandleVerifier [0x006110D7+1094071]&#10;	GetHandleVerifier [0x00606B46+1051686]&#10;	Ordinal0 [0x003F5B06+1727238]&#10;	Ordinal0 [0x003FEB7B+1764219]&#10;	Ordinal0 [0x003FECE3+1764579]&#10;	Ordinal0 [0x00414C05+1854469]&#10;	BaseThreadInitThunk [0x75AB6359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77307C24+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]&#10;"/>
+  </testcase>
+  <testcase name="tearDown" classname="Academy.ValidateTitle" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialize" classname="Academy.ValidateAcademyPage" time="1.126">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 83&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-DCMMFHS&apos;, ip: &apos;192.168.7.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x004E9563+2725219]&#10;	Ordinal0 [0x003E8551+1672529]&#10;	Ordinal0 [0x002D0359+525145]&#10;	Ordinal0 [0x00260B77+68471]&#10;	Ordinal0 [0x0025D32C+54060]&#10;	Ordinal0 [0x0027CC37+183351]&#10;	Ordinal0 [0x0027CA3D+182845]&#10;	Ordinal0 [0x0027A94B+174411]&#10;	Ordinal0 [0x00262528+75048]&#10;	Ordinal0 [0x002635A0+79264]&#10;	Ordinal0 [0x00263539+79161]&#10;	Ordinal0 [0x003FD607+1758727]&#10;	GetHandleVerifier [0x00606546+1050150]&#10;	GetHandleVerifier [0x00606291+1049457]&#10;	GetHandleVerifier [0x006110D7+1094071]&#10;	GetHandleVerifier [0x00606B46+1051686]&#10;	Ordinal0 [0x003F5B06+1727238]&#10;	Ordinal0 [0x003FEB7B+1764219]&#10;	Ordinal0 [0x003FECE3+1764579]&#10;	Ordinal0 [0x00414C05+1854469]&#10;	BaseThreadInitThunk [0x75AB6359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77307C24+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DCMMFHS', ip: '192.168.7.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004E9563+2725219]
+	Ordinal0 [0x003E8551+1672529]
+	Ordinal0 [0x002D0359+525145]
+	Ordinal0 [0x00260B77+68471]
+	Ordinal0 [0x0025D32C+54060]
+	Ordinal0 [0x0027CC37+183351]
+	Ordinal0 [0x0027CA3D+182845]
+	Ordinal0 [0x0027A94B+174411]
+	Ordinal0 [0x00262528+75048]
+	Ordinal0 [0x002635A0+79264]
+	Ordinal0 [0x00263539+79161]
+	Ordinal0 [0x003FD607+1758727]
+	GetHandleVerifier [0x00606546+1050150]
+	GetHandleVerifier [0x00606291+1049457]
+	GetHandleVerifier [0x006110D7+1094071]
+	GetHandleVerifier [0x00606B46+1051686]
+	Ordinal0 [0x003F5B06+1727238]
+	Ordinal0 [0x003FEB7B+1764219]
+	Ordinal0 [0x003FECE3+1764579]
+	Ordinal0 [0x00414C05+1854469]
+	BaseThreadInitThunk [0x75AB6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77307C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]
+
+	at Academy.ValidateAcademyPage.initialize(ValidateAcademyPage.java:25)
+</failure>
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 24418
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="validateAppium" classname="Academy.ValidateAcademyPage" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 83&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-DCMMFHS&apos;, ip: &apos;192.168.7.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x004E9563+2725219]&#10;	Ordinal0 [0x003E8551+1672529]&#10;	Ordinal0 [0x002D0359+525145]&#10;	Ordinal0 [0x00260B77+68471]&#10;	Ordinal0 [0x0025D32C+54060]&#10;	Ordinal0 [0x0027CC37+183351]&#10;	Ordinal0 [0x0027CA3D+182845]&#10;	Ordinal0 [0x0027A94B+174411]&#10;	Ordinal0 [0x00262528+75048]&#10;	Ordinal0 [0x002635A0+79264]&#10;	Ordinal0 [0x00263539+79161]&#10;	Ordinal0 [0x003FD607+1758727]&#10;	GetHandleVerifier [0x00606546+1050150]&#10;	GetHandleVerifier [0x00606291+1049457]&#10;	GetHandleVerifier [0x006110D7+1094071]&#10;	GetHandleVerifier [0x00606B46+1051686]&#10;	Ordinal0 [0x003F5B06+1727238]&#10;	Ordinal0 [0x003FEB7B+1764219]&#10;	Ordinal0 [0x003FECE3+1764579]&#10;	Ordinal0 [0x00414C05+1854469]&#10;	BaseThreadInitThunk [0x75AB6359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77307C24+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]&#10;"/>
+  </testcase>
+  <testcase name="validateLinkedinLink" classname="Academy.ValidateAcademyPage" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 83&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-DCMMFHS&apos;, ip: &apos;192.168.7.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x004E9563+2725219]&#10;	Ordinal0 [0x003E8551+1672529]&#10;	Ordinal0 [0x002D0359+525145]&#10;	Ordinal0 [0x00260B77+68471]&#10;	Ordinal0 [0x0025D32C+54060]&#10;	Ordinal0 [0x0027CC37+183351]&#10;	Ordinal0 [0x0027CA3D+182845]&#10;	Ordinal0 [0x0027A94B+174411]&#10;	Ordinal0 [0x00262528+75048]&#10;	Ordinal0 [0x002635A0+79264]&#10;	Ordinal0 [0x00263539+79161]&#10;	Ordinal0 [0x003FD607+1758727]&#10;	GetHandleVerifier [0x00606546+1050150]&#10;	GetHandleVerifier [0x00606291+1049457]&#10;	GetHandleVerifier [0x006110D7+1094071]&#10;	GetHandleVerifier [0x00606B46+1051686]&#10;	Ordinal0 [0x003F5B06+1727238]&#10;	Ordinal0 [0x003FEB7B+1764219]&#10;	Ordinal0 [0x003FECE3+1764579]&#10;	Ordinal0 [0x00414C05+1854469]&#10;	BaseThreadInitThunk [0x75AB6359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77307C24+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]&#10;"/>
+  </testcase>
+  <testcase name="validateLinks" classname="Academy.ValidateAcademyPage" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 83&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-DCMMFHS&apos;, ip: &apos;192.168.7.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x004E9563+2725219]&#10;	Ordinal0 [0x003E8551+1672529]&#10;	Ordinal0 [0x002D0359+525145]&#10;	Ordinal0 [0x00260B77+68471]&#10;	Ordinal0 [0x0025D32C+54060]&#10;	Ordinal0 [0x0027CC37+183351]&#10;	Ordinal0 [0x0027CA3D+182845]&#10;	Ordinal0 [0x0027A94B+174411]&#10;	Ordinal0 [0x00262528+75048]&#10;	Ordinal0 [0x002635A0+79264]&#10;	Ordinal0 [0x00263539+79161]&#10;	Ordinal0 [0x003FD607+1758727]&#10;	GetHandleVerifier [0x00606546+1050150]&#10;	GetHandleVerifier [0x00606291+1049457]&#10;	GetHandleVerifier [0x006110D7+1094071]&#10;	GetHandleVerifier [0x00606B46+1051686]&#10;	Ordinal0 [0x003F5B06+1727238]&#10;	Ordinal0 [0x003FEB7B+1764219]&#10;	Ordinal0 [0x003FECE3+1764579]&#10;	Ordinal0 [0x00414C05+1854469]&#10;	BaseThreadInitThunk [0x75AB6359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77307C24+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]&#10;"/>
+  </testcase>
+  <testcase name="validateLogin" classname="Academy.ValidateAcademyPage" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 83&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-DCMMFHS&apos;, ip: &apos;192.168.7.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x004E9563+2725219]&#10;	Ordinal0 [0x003E8551+1672529]&#10;	Ordinal0 [0x002D0359+525145]&#10;	Ordinal0 [0x00260B77+68471]&#10;	Ordinal0 [0x0025D32C+54060]&#10;	Ordinal0 [0x0027CC37+183351]&#10;	Ordinal0 [0x0027CA3D+182845]&#10;	Ordinal0 [0x0027A94B+174411]&#10;	Ordinal0 [0x00262528+75048]&#10;	Ordinal0 [0x002635A0+79264]&#10;	Ordinal0 [0x00263539+79161]&#10;	Ordinal0 [0x003FD607+1758727]&#10;	GetHandleVerifier [0x00606546+1050150]&#10;	GetHandleVerifier [0x00606291+1049457]&#10;	GetHandleVerifier [0x006110D7+1094071]&#10;	GetHandleVerifier [0x00606B46+1051686]&#10;	Ordinal0 [0x003F5B06+1727238]&#10;	Ordinal0 [0x003FEB7B+1764219]&#10;	Ordinal0 [0x003FECE3+1764579]&#10;	Ordinal0 [0x00414C05+1854469]&#10;	BaseThreadInitThunk [0x75AB6359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77307C24+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]&#10;"/>
+  </testcase>
+  <testcase name="validateTitle" classname="Academy.ValidateAcademyPage" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 83&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-DCMMFHS&apos;, ip: &apos;192.168.7.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x004E9563+2725219]&#10;	Ordinal0 [0x003E8551+1672529]&#10;	Ordinal0 [0x002D0359+525145]&#10;	Ordinal0 [0x00260B77+68471]&#10;	Ordinal0 [0x0025D32C+54060]&#10;	Ordinal0 [0x0027CC37+183351]&#10;	Ordinal0 [0x0027CA3D+182845]&#10;	Ordinal0 [0x0027A94B+174411]&#10;	Ordinal0 [0x00262528+75048]&#10;	Ordinal0 [0x002635A0+79264]&#10;	Ordinal0 [0x00263539+79161]&#10;	Ordinal0 [0x003FD607+1758727]&#10;	GetHandleVerifier [0x00606546+1050150]&#10;	GetHandleVerifier [0x00606291+1049457]&#10;	GetHandleVerifier [0x006110D7+1094071]&#10;	GetHandleVerifier [0x00606B46+1051686]&#10;	Ordinal0 [0x003F5B06+1727238]&#10;	Ordinal0 [0x003FEB7B+1764219]&#10;	Ordinal0 [0x003FECE3+1764579]&#10;	Ordinal0 [0x00414C05+1854469]&#10;	BaseThreadInitThunk [0x75AB6359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77307C24+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77307BF4+180]&#10;"/>
+  </testcase>
+  <testcase name="tearDown" classname="Academy.ValidateAcademyPage" time="0">
+    <skipped/>
+  </testcase>
 </testsuite>
